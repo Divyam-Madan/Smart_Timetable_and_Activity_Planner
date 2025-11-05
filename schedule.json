@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1762095592563-3849",
+    "event": "divyam",
+    "day": "Monday",
+    "start": "N/A",
+    "end": "23:59",
+    "type": "deadline",
+    "depends_on": "hi"
+  },
+  {
+    "id": "1762095609495-8122",
+    "event": "shrimay",
+    "day": "Monday",
+    "start": "12:00",
+    "end": "13:00",
+    "type": "fixed",
+    "depends_on": null
+  },
+  {
+    "id": "1762095655399-5298",
+    "event": "siddh",
+    "day": "Friday",
+    "start": "00:01",
+    "end": "00:02",
+    "type": "fixed",
+    "depends_on": "shrimay"
+  },
+  {
+    "id": "1762095684962-2800",
+    "event": "vedant",
+    "day": "Wednesday",
+    "start": "N/A",
+    "end": "23:59",
+    "type": "deadline",
+    "depends_on": null
+  },
+  {
+    "id": "1762231065262-522",
+    "event": "event",
+    "day": "Friday",
+    "start": "22:00",
+    "end": "23:00",
+    "type": "fixed",
+    "depends_on": null
+  },
+  {
+    "id": "1762357913729-5351",
+    "event": "hi",
+    "day": "Sunday",
+    "start": "N/A",
+    "end": "23:59",
+    "type": "deadline",
+    "depends_on": null
+  }
+]

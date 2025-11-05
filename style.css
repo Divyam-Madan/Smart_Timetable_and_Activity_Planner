@@ -121,3 +121,61 @@ footer {
   padding: 1rem;
   margin-top: auto;
 }
+
+/* 🧠 Heap & Graph Sections */
+.heap-graph {
+  background: #ffffff;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.heap-graph h2 {
+  color: #0077cc;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* 📆 Heap List */
+#heap-list {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+#heap-list li {
+  background: #eaf6ff;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  border: 1px solid #cbe7ff;
+}
+
+/* 🧩 Graph visualization (simple chain) */
+#graph-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  flex-direction: row;
+}
+
+.node {
+  background: #4cafef;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  color: #0077cc;
+}
+
